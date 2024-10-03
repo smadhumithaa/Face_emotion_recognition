@@ -1,8 +1,9 @@
-Face Emotion Recognition System
-Overview
+**Face Emotion Recognition System**
+
+**Overview**
 This project implements a real-time face recognition and emotion detection system using MTCNN for face detection, FaceNet (via facenet-pytorch) for face recognition, and a custom model for emotion detection. The system captures live video, detects faces, recognizes individuals, and determines their emotions in real-time.
 
-Features
+**Features**
 Face Detection: Utilizes MTCNN (Multi-task Cascaded Convolutional Networks) to detect faces in the video stream.
 Face Recognition: Employs the FaceNet model to extract face embeddings and recognize individuals based on saved embeddings.
 Emotion Detection: Uses a custom emotion detection model to classify facial expressions into categories such as happy, sad, angry, neutral, etc.
@@ -24,9 +25,8 @@ numpy (for numerical operations)
 cv2 (for video processing)
 You can install the required packages by running:
 
-bash
-Copy code
 pip install torch facenet-pytorch scipy opencv-python numpy
+
 Project Structure
 graphql
 Copy code
