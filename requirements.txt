@@ -19,7 +19,6 @@ cycler==0.12.1
 deepface==0.0.93
 dnspython==2.6.1
 Emotion-recognition==1.0.2
-facenet-pytorch==2.6.0
 filelock==3.16.1
 fire==0.6.0
 Flask==3.0.3
