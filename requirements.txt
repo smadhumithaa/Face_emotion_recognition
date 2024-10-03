@@ -117,3 +117,4 @@ watchdog==4.0.2
 Werkzeug==3.0.4
 wrapt==1.16.0
 zipp==3.20.2
+facenet-pytorch
