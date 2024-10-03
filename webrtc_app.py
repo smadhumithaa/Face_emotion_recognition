@@ -13,7 +13,7 @@ import av
 @st.cache_resource
 def load_model():
     embedder = FaceNet()
-    detector = MTCNN(keep_all=True, post_process=False, device="cuda")
+    detector = MTCNN(keep_all=True, post_process=False)
     return embedder, detector
 
 embedder, detector  = load_model()
