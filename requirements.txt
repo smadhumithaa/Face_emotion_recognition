@@ -96,7 +96,6 @@ scipy==1.13.1
 six==1.16.0
 smmap==5.0.1
 soupsieve==2.6
-streamlit==1.38.0
 streamlit-webrtc==0.47.9
 sympy==1.13.3
 tenacity==8.5.0
